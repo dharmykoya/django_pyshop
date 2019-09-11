@@ -16,11 +16,16 @@
       crossorigin="anonymous"
     />
 
-    <title>Django Shop</title>
+    <title>Py Shop</title>
   </head>
   <body>
-    {% block content %} {% endblock %}
-
+    <!-- As a link -->
+    <nav class="navbar navbar-light bg-light">
+      <a class="navbar-brand" href="#">PyShop</a>
+    </nav>
+    <div class="container">
+      {% block content %} {% endblock %}
+    </div>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script
